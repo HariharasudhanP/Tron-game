@@ -1,0 +1,28 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+
+
+void nextMove(char player,int x, int y, vector <string> board){
+
+
+}
+
+int main(void) {
+
+char player;
+int x, y;
+int o_x, o_y;
+vector <string> board;
+
+cin >> player;
+cin >> x >> y >> o_x >> o_y;
+for(int i=0; i<15; i++) {
+string s; cin >> s;
+board.push_back(s);
+}
+
+nextMove(player,x,y,board);
+
+return 0;
+}
